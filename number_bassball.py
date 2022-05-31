@@ -1,6 +1,6 @@
 import random
 
-y = random.sample(range(1, 21), 3)
+y = random.sample(range(1, 9), 3)
 
 
 is_right = 0

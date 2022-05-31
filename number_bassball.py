@@ -1,6 +1,6 @@
 import random
 
-y = random.sample(range(1, 100), 3)
+y = random.sample(range(1, 4), 3)
 
 
 is_right = 0
@@ -14,7 +14,7 @@ while is_right==0:
     s = 0;b = 0
 
     if y == ans:
-        print('3 스트파이크, 0 볼')
+        print('3 스트라이크, 0 볼')
         print('정답:', y)
         is_right = 1
     else:
@@ -26,3 +26,4 @@ while is_right==0:
                     b = b + 1
 
         print(f'{s} 스트라이크, {b} 볼')
+        
